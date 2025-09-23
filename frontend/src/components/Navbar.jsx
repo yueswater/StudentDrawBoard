@@ -8,9 +8,7 @@ export default function Navbar() {
         <a className="btn btn-ghost text-xl">行政法抽抽樂</a>
       </div>
       <div className="flex-none flex items-center gap-4">
-        {/* 深淺色切換器 */}
         <label className="flex items-center cursor-pointer gap-2">
-          {/* 太陽 icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -32,7 +30,6 @@ export default function Navbar() {
             className="toggle toggle-sm toggle-primary theme-controller rounded-full"
           />
 
-          {/* 月亮 icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -48,9 +45,8 @@ export default function Navbar() {
           </svg>
         </label>
 
-        {/* 政治系網站 icon */}
         <a
-          href="https://polisci.xxx.edu.tw" // 這裡換成真實的網址
+          href="https://politics.ntu.edu.tw/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-ghost"
