@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">行政法（一）</a>
+        <a className="btn btn-ghost text-xl">行政法抽抽樂</a>
       </div>
       <div className="flex-none flex items-center gap-4">
         {/* 深淺色切換器 */}
