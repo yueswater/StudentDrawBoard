@@ -22,7 +22,7 @@ async function getSheetsClient() {
   return google.sheets({ version: "v4", auth: authClient });
 }
 
-app.get("ping", (req, res) => {
+app.get("/ping", (req, res) => {
   res.status(200).send("pong");
 });
 
