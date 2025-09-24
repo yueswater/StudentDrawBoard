@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const CREDENTIALS_PATH = process.env.GOOGLE_CREDENTIALS_PATH;
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
 
